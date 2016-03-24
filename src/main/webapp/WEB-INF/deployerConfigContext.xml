@@ -114,11 +114,6 @@
     <!--</bean>-->
     <bean id="primaryAuthenticationHandler"
           class="org.jasig.cas.authentication.BlogAcceptUsersAuthenticationHandler">
-        <property name="users">
-            <map>
-                <entry key="admin" value="admin"/>
-            </map>
-        </property>
     </bean>
 
     <!-- Required for proxy ticket mechanism -->
