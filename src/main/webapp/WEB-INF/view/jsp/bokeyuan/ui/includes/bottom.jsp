@@ -25,7 +25,7 @@
       <footer>
         <div id="copyright">
           <p><spring:message code="copyright" /></p>
-          <p>Powered by <a href="http://www.jasig.org/cas">Jasig Central Authentication Service <%=org.jasig.cas.CasVersion.getVersion()%></a></p>
+            <p>Powered by <a href="https://czjtt.github.io">czjtt.github.io</a> of cas version: <%=org.jasig.cas.CasVersion.getVersion()%></p>
         </div>
       </footer>
 

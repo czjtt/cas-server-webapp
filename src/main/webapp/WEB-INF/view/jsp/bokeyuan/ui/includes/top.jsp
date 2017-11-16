@@ -30,7 +30,7 @@
 <head>
   <%--<meta charset="UTF-8" />--%>
 
-  <title>First Cas Login</title>
+  <title>Cas Login</title>
 
   <spring:theme code="standard.custom.css.file" var="customCssFile" />
   <link rel="stylesheet" href="<c:url value="${customCssFile}" />" />
@@ -43,8 +43,10 @@
 <body id="cas">
   <div id="container">
       <header>
-        <%-- <a id="logo" href="http://www.jasig.org" title="<spring:message code="logo.title" />">Jasig</a> --%>
+         <%--<a id="logo" href="http://www.jasig.org" title="<spring:message code="logo.title" />">Jasig</a>--%>
+        <%--<a id="logo" href="<spring:message code="title.url">" title="<spring:message code="logo.title" />">Jasig</a>&ndash;%&gt;--%>
+        <a id="logo" href="<spring:message code="title.url" />" title="<spring:message code="logo.title" />">Jasig</a>
         <%-- <h1>Central Authentication Service (CAS)</h1> --%>
-        <h1>欢迎登陆cas系统</h1>
+        <h1>Welcome To Login</h1>
       </header>
       <div id="content">
